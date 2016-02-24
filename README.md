@@ -20,7 +20,7 @@ The Unix shell has been around longer than most of its users have been alive. It
 
 ## Getting Ready **Download Practice Data** 
 For this lesson, you will need to download some files in order to follow along.
-1. Download and move [this file](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/data/Shell_Transcriptomics.zip) to your **Desktop**
+1. Download and move [this file](./Shell_Transcriptomics.zip) to your **Desktop**
 2. Unzip/extract the files. You should have a folder on your desktop called "Shell-Transcriptomics"
 
 ## Further Reading
