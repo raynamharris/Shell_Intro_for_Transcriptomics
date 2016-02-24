@@ -1,16 +1,10 @@
 # Lesson 02. Navigating the Unix File System
+The part of the operating system responsible for managing files and directories is called the file system. It organizes our data into files, which hold information, and directories (also called "folders"), which hold files or other directories. 
+
+Let's begin by exploring our computers from the command line. 
 
 
-
-The part of the operating system responsible for managing files and directories is called the file system. It organizes our data into files, which hold information, and directories (also called "folders"), which hold files or other directories. Several commands are frequently used to create, inspect, rename, and delete files and directories. To start exploring them, let's open a shell window:
-
-The dollar sign is a **prompt**, which shows us that the shell is waiting for input. When typing commands from these lessons, do not type the prompt($); only type the commands that follow it.
-
-~~~ {.bash}
-$
-~~~
-
-### whoami
+## whoami
 
 We can type the command `whoami` and hit the return key to execute the command. The output returned should be the name of your computer. More specifically, when we type `whoami` the shell:
 1.  finds a program called `whoami`,
@@ -28,8 +22,7 @@ raynamharris
 $ 
 ~~~
 
-### pwd
-
+## pwd
 Next, let’s find out where we are by running a command called `pwd` which stands for **print working directory**. At any moment, our current working directory is our current default directory, i.e., the directory that the computer assumes we want to run commands in unless we explicitly specify otherwise. 
 
 ~~~ {.bash}
@@ -39,9 +32,14 @@ $ pwd
 /Users/raynamharris
 ~~~
 
+This is your **home directory**. To understand what a  home directory  is, let's have a look at how the file system as a whole is organized. For the sake of example, we'll be illustrating the filesystem on our scientist Nelle's computer. After this illustration, you'll be learning commands to explore your own filesystem, which will be constructed in a similar way, but not be exactly identical.
+
 Note: The home directory path will look different on different operating systems. On Linux it may look like /Users/raynamharris but on Windows it will look more like C:\Users\raynamharris. In future examples, we’ve used Mac output as the default.
 
-### ls
+# Add picture and description here!!!!
+
+
+## ls
 
 If we want to see the contents of our own filesystem, we cannot simply double click a folder on our desktop. From the command line, we the command `ls`, which stands for “listing”, to explore our file system. `ls` prints the names of the files and directories in the current directory in alphabetical order, arranged neatly into columns.
 
@@ -58,18 +56,23 @@ Documents		Music
 This is cool, but we can view a lot more information about our files by using **flags** or **arguments**. Let's explore the following: `ls -t`, and `ls -tlh`. The -t flag will sort things in order by the time last edited. We can combine flags to do multiple things at a time, like sort by time (-t), list all the details (-l), and display the file size in human readable format (-h).
 
 ~~~ {.bash}
-ls -t
+ls -l
 ~~~
 ~~~ {.output}
-Desktop		Applications  
-Downloads	Documents	
-Dropbox		Movies	
-Github		Pictures
+drwx------   6 raynamharris  staff       204 Feb  3 16:58 Applications
+drwx------+ 26 raynamharris  staff       884 Feb 24 03:04 Desktop
+drwx------+ 30 raynamharris  staff      1020 Feb 22 23:04 Documents
+drwx------+ 50 raynamharris  staff      1700 Feb 24 03:04 Downloads
+drwx------@ 34 raynamharris  staff      1156 Feb 23 15:53 Dropbox
+drwxr-xr-x  20 raynamharris  staff       680 Feb 23 23:07 Github
+drwx------+ 17 raynamharris  staff       578 Feb 22 22:58 Movies
+drwx------+  5 raynamharris  staff       170 Feb  3 15:32 Music
 ~~~
 
 ~~~ {.bash}
 ls -tlh
 ~~~
+
 ~~~ {.output}
 drwx------+ 24 raynamharris  staff   816B Feb 16 18:42 Desktop
 drwx------@ 36 raynamharris  staff   1.2K Feb 16 18:42 Dropbox
@@ -86,6 +89,7 @@ We can also list contents of other directories by providing the path to that dir
 ~~~ {.bash}
 $ ls -tlh Pictures
 ~~~
+
 ~~~ {.output}
 -rw-r--r--@  1 raynamharris  staff   595K Feb 15 11:28 1000x300BDiB2016.png
 -rw-r--r--@  1 raynamharris  staff   237K Feb 13 13:23 BDiBMugExample2016-2.jpg
@@ -93,20 +97,65 @@ drwxr-xr-x   2 raynamharris  staff    68B Feb  8 16:55 GoPro
 ~~~
 
 ~~~ {.bash}
-$ ls -tlh Dropbox/GoPro
+$ ls -tlh Desktop/Shell_Transcriptomics
 ~~~
+
 ~~~ {.output}
--rw-------@ 1 raynamharris  staff   1.5G Feb  9 07:52 GOPR0009.MP4
--rw-------@ 1 raynamharris  staff    18M Feb  8 22:13 GOPR0008.MP4
+-rw-r--r--@ 1 raynamharris  staff    41K Feb 24 01:41 02-tissue-S02_R1_001.fastq
+-rw-r--r--@ 1 raynamharris  staff    41K Feb 24 01:41 02-tissue-S02_R2_001.fastq
+-rw-r--r--@ 1 raynamharris  staff    41K Feb 24 01:30 01-tissue-S01_R1_001.fastq
+-rw-r--r--@ 1 raynamharris  staff    41K Feb 24 01:30 04-neuron-S04_R1_001.fastq
 ~~~
 
-### cd
 
-We can also move around in the file system or *change directories*. The command to change locations is `cd` followed by the name of the directory or perhps the name and full path to the directory. 
+## cd
+In addition to looking at the files inside directories, we can also change our location to a different directory, so that we are no longer located in our home directory. The command to **change directories** is `cd`. 
+
+In order to move into the directory "Shell_Transcriptomics that we just downloaded and saved we can use a series of two commands to get there.
 
 ~~~ {.bash}
 $ cd Desktop
+$ cd Shell_Transcriptomics
 ~~~
+
+~~~ {.bash}
+$ 
+~~~
+
+These two commands moved us from our home directory onto our Desktop, then into Shell_Transcriptomics. But, the `cd` command doesn't give an output, so we are left with and empty prompt or `$`.
+
+In order to see where we are, we can type our friendly comand `pwd`
+
+~~~ {.bash}
+$ pwd
+~~~
+
+~~~ {.output}
+/Users/raynamharris/Desktop/Shell_Transcriptomics
+~~~
+
+And now we can type `ls` to see the contents
+
+~~~ {.bash}
+$ ls
+~~~
+
+~~~ {.output}
+01-tissue-S01_R1_001.fastq	03-tissue-S03_R1_001.fastq	05-neuron-S05_R1_001.fastq
+01-tissue-S01_R2_001.fastq	03-tissue-S03_R2_001.fastq	05-neuron-S05_R2_001.fastq
+02-tissue-S02_R1_001.fastq	04-neuron-S04_R1_001.fastq	06-neuron-S06_R1_001.fastq
+02-tissue-S02_R2_001.fastq	04-neuron-S04_R2_001.fastq	06-neuron-S06_R2_001.fastq
+~~~
+
+## Full vs. Relative Paths
+The `cd` command takes an argument which is the directory name. Directories can be specified using either a **relative path** or a **full path**.
+
+
+
+
+
+
+
 
 This command `cd ..` will take you up one directory. The command `cd ../..` will take you up two directories. The command `cd ../<other_directory_name` will take you up one directory level and into another directory. 
 
@@ -125,7 +174,7 @@ $ cd ~
 $ cd /Users/raynamharris
 ~~~
 
-### Socrative Unix-Directories-Exercise
+## Socrative Unix-Directories-Exercise
 Login to [Socrative](https://b.socrative.com/login/student/) as a Student.
 Enter the Room Number AKV8EK5UQ
 Record your answers

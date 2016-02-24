@@ -1,11 +1,40 @@
 # Lesson 01. Introducing the Shell
 
-### Background
-The Unix shell has been around longer than most of its users have been alive. It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes. More importantly, it helps them combine existing programs in new ways and automate repetitive tasks so that they don’t have to type the same things over and over again. Use of the shell is fundamental to using a wide range of other powerful tools and computing resources including “high-performance computing (HPC)” supercomputers. These lessons will start you on a path towards using these resources effectively.
+## Background
+The *shell* is a command line interface program that allows you to control your computer with a keyboard rather than using your mouse and keyboard to control your computer through a graphical user interface (GUI). It may seem strange and difficult at first, but there are  many reasons master the shell.
 
-### Installation
-Mac users should open up the Terminal.
-Windows should download Putty or GitBash
+* Most bioinformatics programs can only be run from the command line. So, you will have to become familiar with the shell if you want to work in genomics or transcriptomics.
+* The shell gives the you power to do your work more efficiently and more quickly. This is the first step toward developing a reproducible research program.
+* Cloud computers can only be accessed through command line interfaces.
 
-### Motivating Dataset
-We will use a small dataset form the [Gapminder](http://www.gapminder.org) project to teach foundations of computing.
+
+## How to Access the Shell
+The shell is already available on Mac and Linux machines. Windows users will have to download a separate program.
+
+### Mac
+On a Mac, the Unix Shell is available through the program **Terminal**. To open the Terminal, go to:
+
+Applications -> Utilities -> Terminal 
+Or
+Type Terminal in the Spotlight Search
+
+You may want to drag the Terminal application to your Dock for easy access.
+
+### Windows
+On Windows machines, you will need to download a program. There are many to choose from, bit Gitbash is very novice-friendly.
+
+Download and install [Gitbash](http://msysgit.github.io);
+Open up the program.
+
+
+## Getting Starting with the Shell
+
+Open either the Terminal (Mac) or Gitbash (Windows).
+
+The dollar sign is a **prompt**, which shows us that the shell is waiting for input. 
+
+~~~ {.bash}
+$
+~~~
+
+When typing commands from these lessons, do not type the prompt($); only type the commands that follow it.

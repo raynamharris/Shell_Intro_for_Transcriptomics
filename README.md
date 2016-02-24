@@ -18,17 +18,19 @@ The Unix shell has been around longer than most of its users have been alive. It
 05. Finding Things: Grep and History 
 06. Bash Scripts
 
-## Getting Ready **Download Practice Data** 
+## Getting Ready: Download the Practice Data
 For this lesson, you will need to download some files in order to follow along.
-1. Download and move [this file](./data/Shell_Transcriptomics.zip) to your **Desktop**
-2. Unzip/extract the files. You should have a folder on your desktop called "Shell-Transcriptomics"
+
+1. **Download and move [this file](./data/Shell_Transcriptomics.zip) to your Desktop**
+2. If download does not start automatically, click "View Raw" to start the download.
+3. Unzip/extract the files. You should have a folder on your desktop called "Shell-Transcriptomics"
 
 ## Further Reading
 - [Practical Computing for Biologists](http://practicalcomputing.org/) This is a highly recommended book for people looking for a systematic presentation on shell scripting, programming, UNIX, etc.
 - A Quick Guide to Organizing Computational Biology Projects, Noble, PLoS Comp Biology, 2009.
 
 ## Useful Resources
-http://explainshell.com Not sure what a command means/does? Type it into hear and get an explaination
+http://explainshell.com Not sure what a command means/does? Type it into hear and get an explanation
 
 
 ## Acknowledgements
