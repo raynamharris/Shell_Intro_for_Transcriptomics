@@ -13,7 +13,7 @@ The Unix shell has been around longer than most of its users have been alive. It
 ## Topics Covered in this Lesson
 01. Introducing the Shell
 02. Navigating the Unix File System
-03. Reading, Writing, Moving, Copying Files
+03. Writing, Reading, Copying, Moving, Removing
 04. Pipes, Filters, and Loops
 05. Finding Things: Grep and History 
 06. Bash Scripts
@@ -37,13 +37,11 @@ http://explainshell.com Not sure what a command means/does? Type it into hear an
 This lesson was inspired by other awesome lessons taught by my colleagues. The include by are not limited to:
 
 - [Software Carpentry the Unix Shell](https://github.com/swcarpentry/shell-novic)
-- Titus Advanced Beginner Intermediate UNIX
-- Titus NGS
-- Data Carpentry Genomics
-- Intro to Biocomputing
+- [Titus Advanced Beginner Intermediate UNIX](https://github.com/ngs-docs/2016-adv-begin-shell-genomics)
+- [Titus's 2014 Analyzing Next-Generation Sequencing (ANGUS) course](http://angus.readthedocs.org/en/2014/)
+- [Data Carpentry Genomics](http://www.datacarpentry.org/genomics-workshop/)
+- [2014 Intro to Biocomputing Materials](https://github.com/wrightaprilm/BioComputing2014Course)
 - [Software Carpentry R Novice Gapminder](https://github.com/swcarpentry/r-novice-gapminder)
-
-- Edamame
-- CCBB Intro RNA-sequencing
-- CCBB Intro to Next Generation Sequencing
+- [CCBB's 4 day Intro RNA-sequencing Course](https://wikis.utexas.edu/display/bioiteam/Introduction+to+RNA+Seq+Course+2014)
+- [CCBB 4 day Intro to Next Generation Sequencing](https://wikis.utexas.edu/display/CoreNGSTools/Core+NGS+Tools+Home)
 - [Kate's Socrative Tutorial](http://pad.software-carpentry.org/swc-instructor-retreat-2015-8PM-UTC)
