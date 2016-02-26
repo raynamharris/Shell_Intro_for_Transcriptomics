@@ -1,4 +1,5 @@
 # Lesson 02. Navigating the Unix File System
+
 The part of the operating system responsible for managing files and directories is called the file system. It organizes our data into files, which hold information, and directories (also called "folders"), which hold files or other directories. 
 
 Let's begin by exploring our computers from the command line. 
@@ -109,7 +110,7 @@ $ ls -tlh Desktop/Shell_Transcriptomics
 
 
 ## cd
-In addition to looking at the files inside directories, we can also change our location to a different directory, so that we are no longer located in our home directory. The command to **change directories** is `cd`. 
+In addition to looking at the files inside directories, we can also change our location to a different directory, so that we are no longer located in our home directory. The command to **change directories** is `cd`. The `cd` command takes an argument which is the directory name. 
 
 In order to move into the directory "Shell_Transcriptomics that we just downloaded and saved we can use a series of two commands to get there.
 
@@ -147,32 +148,57 @@ $ ls
 02-tissue-S02_R2_001.fastq	04-neuron-S04_R2_001.fastq	06-neuron-S06_R2_001.fastq
 ~~~
 
-## Full vs. Relative Paths
-The `cd` command takes an argument which is the directory name. Directories can be specified using either a **relative path** or a **full path**.
+## Relative vs Full Paths
+The directories on the computer are arranged into a hierarchy.Directories can be specified using either a **relative path** or a **full path**. The relative path is relative to your current directory, but the full path is indifferent to the current directory. 
 
+When we last entered the `pwd` command we saw something like this:
 
-
-
-
-
-
-
-This command `cd ..` will take you up one directory. The command `cd ../..` will take you up two directories. The command `cd ../<other_directory_name` will take you up one directory level and into another directory. 
-
-The .. is a relative path, because its relative to where you are now. We can also specify the absolute path to move around without respect to our current directory. For example:
-
-~~~ {.bash}
-$ cd ../Pictures
-$ cd /Users/raynamharris/Pictures
+~~~ {.output}
+/Users/raynamharris/Desktop/Shell_Transcriptomics
 ~~~
 
-In UNIX all the following commands (and others too) will take you to your home directory. 
+This is the full path to the Shell_Transcriptomics directory on Rayna's computer. 
+
+The very top of the hierarchy is a directory  `/` that is usually referred to as the **root directory**. The full path to Rayna's **home directory** is `/Users/raynamharris`. Our Desktop is a subdirectory of the home directory, and our project folder is a subdirectory of our Desktop.
+
+We can change directories by giving full or relative paths. 
+
+## Relative Path Examples 
+
+`.` The single period means **this directory**. This is a relative path to use when you want to copy files from somewhere else to your current directory
+
+`..` The double period means **one directory up in the hierarchy**. This is useful when you want to move up one directory by typing `cd ..`. You can use this in a combination, for example: `cd ../..` will go up two directories or `cd ../Pictures/` will move up to the Desktop and then into Pictures. 
+
+## Shortcuts to Home
+
+To go home, we could type the full path `/Users/raynamharris` but that requires a lot of typing. The following commands will also take you home:  
 
 ~~~ {.bash}
-$ cd 
+$ cd
 $ cd ~
 $ cd /Users/raynamharris
 ~~~
+
+Note: The `~` can be used in place of `/Users/raynamharris` in full path descriptions. 
+
+# Challenge: Full and Relative Paths
+For a hypothetical filesystem location of `/Users/amanda/data/`, which of the following commands could Amanda use to navigate to her home directory.
+
+cd
+cd .
+cd ..
+cd ../..
+cd /
+cd home
+cd /home/amanda
+cd /Users/amanda
+cd ~
+cd ~/data/..
+
+
+## Tab Completion Shortcut
+We just learned a few shorthand notations that save us time typing. Another very useful shortcut is refered to as tab completion. When typing a directory or file name, we can type the first few character then hit the `	tab` button and our computer will automatically add the following unique characters. 
+
 
 ## Socrative Unix-Directories-Exercise
 Login to [Socrative](https://b.socrative.com/login/student/) as a Student.
