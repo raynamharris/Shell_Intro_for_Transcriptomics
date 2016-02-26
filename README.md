@@ -11,9 +11,9 @@ The Unix shell has been around longer than most of its users have been alive. It
 - Learn to automate tasks to build reproducible research practices
 
 ## Topics Covered in this Lesson
-01. Introducing the Shell
-02. Navigating the Unix File System
-03. Writing, Reading, Copying, Moving, Removing
+01. [Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/01_Intoducing_Shell.md)
+02. [Navigating the Unix File System](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/02_Navigating_Dirs.md)
+03. [Writing, Reading, Copying, Moving, Removing](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/03_ReadWriteMoveCopy.md)
 04. Pipes, Filters, and Loops
 05. Finding Things: Grep and History 
 06. Bash Scripts
