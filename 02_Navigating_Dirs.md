@@ -19,8 +19,7 @@ For example:
 $ whoami
 ~~~
 ~~~ {.output}
-austin\rmharris
-$ 
+austin\rmharris 
 ~~~
 
 ## pwd
@@ -88,7 +87,7 @@ drwx------+  5 raynamharris  staff   170B Feb  3 15:32 Music
 We can also list contents of other directories by providing the path to that directory. 
 
 ~~~ {.bash}
-$ ls -tlh Pictures
+$ ls -tlh Documents
 ~~~
 
 ~~~ {.output}
@@ -98,7 +97,7 @@ drwxr-xr-x   2 raynamharris  staff    68B Feb  8 16:55 GoPro
 ~~~
 
 ~~~ {.bash}
-$ ls -tlh Desktop/Shell_Transcriptomics
+$ ls -tlh Desktop/DataForUnixCourse
 ~~~
 
 ~~~ {.output}
@@ -112,14 +111,15 @@ $ ls -tlh Desktop/Shell_Transcriptomics
 ## cd
 In addition to looking at the files inside directories, we can also change our location to a different directory, so that we are no longer located in our home directory. The command to **change directories** is `cd`. The `cd` command takes an argument which is the directory name. 
 
-In order to move into the directory "Shell_Transcriptomics that we just downloaded and saved we can use a series of two commands to get there.
+In order to move into the directory "DataForUnixCourse" that we just downloaded and saved we can use a series of two commands to get there.
 
 ~~~ {.bash}
 $ cd Desktop
-$ cd Shell_Transcriptomics
+$ cd DataForUnixCourse
 ~~~
 
 ~~~ {.bash}
+rmharris@CNS-FAC101BP16 ~/Desktop/DataForUnixCourse
 $ 
 ~~~
 
@@ -132,7 +132,7 @@ $ pwd
 ~~~
 
 ~~~ {.output}
-/Users/raynamharris/Desktop/Shell_Transcriptomics
+c/Users/raynamharris/Desktop/DataForUnixCourse
 ~~~
 
 And now we can type `ls` to see the contents
@@ -176,13 +176,13 @@ To go home, we could type the full path `/Users/raynamharris` but that requires 
 ~~~ {.bash}
 $ cd
 $ cd ~
-$ cd /Users/raynamharris
+$ cd /c/Users/rmharris
 ~~~
 
-Note: The `~` can be used in place of `/Users/raynamharris` in full path descriptions. 
+Note: The `~` can be used in place of `/c/Users/rmharris` in full path descriptions. 
 
 # Challenge: Full and Relative Paths
-For a hypothetical filesystem location of `/Users/amanda/data/`, which of the following commands could Amanda use to navigate to her home directory.
+For a hypothetical filesystem location of `/c/Users/amanda/data/`, which of the following commands could Amanda use to navigate to her home directory.
 
 cd   
 cd .   
@@ -191,7 +191,7 @@ cd ../..
 cd /   
 cd home   
 cd /home/amanda   
-cd /Users/amanda   
+cd /c/Users/amanda   
 cd ~   
 cd ~/data/..   
 
