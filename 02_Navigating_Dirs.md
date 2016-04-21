@@ -1,6 +1,6 @@
 # Lesson 02. Navigating the Unix File System
 
-The part of the operating system responsible for managing files and directories is called the file system. It organizes our data into files, which hold information, and directories (also called "folders"), which hold files or other directories. 
+The part of the operating system responsible for managing files and directories is called the file system. It organizes our data into files that hold information, and directories (aka folders) that files or other directories. 
 
 Let's begin by exploring our computers from the command line. 
 
@@ -19,7 +19,7 @@ For example:
 $ whoami
 ~~~
 ~~~ {.output}
-raynamharris
+austin\rmharris
 $ 
 ~~~
 
@@ -30,7 +30,7 @@ Next, let’s find out where we are by running a command called `pwd` which stan
 $ pwd
 ~~~
 ~~~ {.output}
-/Users/raynamharris
+/c/Users/rmharris
 ~~~
 
 This is your **home directory**. To understand what a  home directory  is, let's have a look at how the file system as a whole is organized. For the sake of example, we'll be illustrating the filesystem on our scientist Nelle's computer. After this illustration, you'll be learning commands to explore your own filesystem, which will be constructed in a similar way, but not be exactly identical.
@@ -206,6 +206,6 @@ Enter the Room Number AKV8EK5UQ
 Record your answers  
 
 
-## Links to the Next and Previous lessons
+## Proceed to the Next and Previous lessons
 **Next Lesson:** [03 Read Write Move Copy](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/03_ReadWriteMoveCopy.md)     
 **Previous Lesson:** [01 Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/01_Intoducing_Shell.md)

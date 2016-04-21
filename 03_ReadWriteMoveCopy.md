@@ -146,3 +146,7 @@ $ gunzip *.gz
 # Socrative Unix-Files-Exercise
 Login to Socrative as a Student.
 Enter the Room Number AKV8EK5UQ
+
+## Proceed to the Next or Previous lesson
+**Next Lesson:** [04 Pipes, Filters, and Loops](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/04_PipesFiltersLoops.md)  
+**Previous Lesson** [02 Navigating Directories](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/02_Navigating_Dirs.md)

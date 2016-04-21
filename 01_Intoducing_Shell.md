@@ -26,7 +26,7 @@ On Windows machines, you will need to download a program. There are many to choo
 
 When you open the program Git Bash, you should see something that looks like the following:
 
-~~~ {.bash}
+~~~ {.output}
 rmharris@CNS-FAC101BP16 ~
 $
 ~~~
@@ -37,5 +37,6 @@ The `$` is a **prompt**, which shows us that the shell is waiting for you to typ
 
 **Note:** When following along and typing commands from these lessons, do not type the $; only type the commands that follow it.
 
-## Proceed to the Next lesson
+## Proceed to the Next or Previous lesson
 **Next Lesson:** [02 Navigating Directories](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/02_Navigating_Dirs.md)  
+**Previous Lesson** [00 The Motivating Dataset](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/00_Motivating_Dataset.md)
