@@ -200,7 +200,10 @@ cd ~/data/..
 We just learned a few shorthand notations that save us time typing. Another very useful shortcut is refered to as tab completion. When typing a directory or file name, we can type the first few character then hit the `	tab` button and our computer will automatically add the following unique characters. 
 
 
-## Socrative Unix-Directories-Exercise
+# Socrative Unix-Directories-Exercise
 Login to [Socrative](https://b.socrative.com/login/student/) as a Student.  
 Enter the Room Number AKV8EK5UQ  
 Record your answers  
+
+## Next Lesson: [03 Read Write Move Copy](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/03_ReadWriteMoveCopy.md)  
+## Previous Lesson: [01 Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/01_Intoducing_Shell.md)
