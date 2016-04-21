@@ -1,4 +1,4 @@
-# Lesson 03. Cloning, Reading, Writing, Moving, Copying, Removing, Gunzipping 
+# Lesson 03. Reading, Writing, Moving, Copying, Removing, Gunzipping 
 
 In this part of the course, we will download some RNAseq data and practice reading, writing, moving, and copying files and directories
 
