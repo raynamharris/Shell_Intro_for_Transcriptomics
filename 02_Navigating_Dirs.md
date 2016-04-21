@@ -184,16 +184,16 @@ Note: The `~` can be used in place of `/Users/raynamharris` in full path descrip
 # Challenge: Full and Relative Paths
 For a hypothetical filesystem location of `/Users/amanda/data/`, which of the following commands could Amanda use to navigate to her home directory.
 
-cd
-cd .
-cd ..
-cd ../..
-cd /
-cd home
-cd /home/amanda
-cd /Users/amanda
-cd ~
-cd ~/data/..
+cd   
+cd .   
+cd ..   
+cd ../..   
+cd /   
+cd home   
+cd /home/amanda   
+cd /Users/amanda   
+cd ~   
+cd ~/data/..   
 
 
 ## Tab Completion Shortcut
@@ -201,6 +201,6 @@ We just learned a few shorthand notations that save us time typing. Another very
 
 
 ## Socrative Unix-Directories-Exercise
-Login to [Socrative](https://b.socrative.com/login/student/) as a Student.
-Enter the Room Number AKV8EK5UQ
-Record your answers
+Login to [Socrative](https://b.socrative.com/login/student/) as a Student.  
+Enter the Room Number AKV8EK5UQ  
+Record your answers  
