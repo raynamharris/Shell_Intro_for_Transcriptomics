@@ -1,4 +1,4 @@
-# Lesson 03. Reading, Writing, Moving, Copying, Removing 
+# Lesson 03. Cloning, Reading, Writing, Moving, Copying, Removing, Gunzipping 
 
 In this part of the course, we will download some RNAseq data and practice reading, writing, moving, and copying files and directories
 
@@ -131,6 +131,18 @@ $ rm -r fastq_copies/
 
 If you want to remove an empty directory, you can use `rm -r` or `rmdir`.
 
-## Socrative Unix-Files-Exercise
+## gunzip
+
+The next thing we want to do before we move on is to unzip our files so we can look at the sequences. The command for this is `gunzip`
+
+~~~ {.bash}
+$ gunzip Sample_Yeast_L005_R1.cat.fastq.gz
+$ ls
+$ gunzip *.gz
+~~~
+
+
+# FIXME
+# Socrative Unix-Files-Exercise
 Login to Socrative as a Student.
 Enter the Room Number AKV8EK5UQ
