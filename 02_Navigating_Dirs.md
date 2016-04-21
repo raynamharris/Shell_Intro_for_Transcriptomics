@@ -205,5 +205,7 @@ Login to [Socrative](https://b.socrative.com/login/student/) as a Student.
 Enter the Room Number AKV8EK5UQ  
 Record your answers  
 
-## Next Lesson: [03 Read Write Move Copy](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/03_ReadWriteMoveCopy.md)  
-## Previous Lesson: [01 Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/01_Intoducing_Shell.md)
+
+## Links to the Next and Previous lessons
+**Next Lesson:** [03 Read Write Move Copy](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/03_ReadWriteMoveCopy.md)     
+**Previous Lesson:** [01 Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/01_Intoducing_Shell.md)
