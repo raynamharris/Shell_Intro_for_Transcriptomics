@@ -64,24 +64,25 @@ $
 
 ~~~ {.bash}
 $ cd ..
-$ less 01-tissue-S01_R1_001.fastq
+$ less human_rnaseq.fastq
 ~~~
 
-This is a nice way to view this fairly large file. Hit the `q` key to quit the program less. 
+This is a nice way to view this fairly large file using the up and down arrows. 
+Hit the `q` key to quit the program less. 
 
 ### head and tail
 `head <filename>` and `tail <filename>` are two commands that print the first or last, respectively, 5 lines of the file to the screen. 
 
 ~~~ {.bash}
-$ head 01-tissue-S01_R1_001.fastq
-$ tail 01-tissue-S01_R1_001.fastq
+$ head human_rnaseq.fastq
+$ tail human_rnaseq.fastq
 ~~~
 
 If you want to view more than 5 lines, we can modify the command. This examples will show the first 100 and then the last 200 lines
 
 ~~~ {.bash}
-$ head -100 01-tissue-S01_R1_001.fastq
-$ tail -200 01-tissue-S01_R1_001.fastq
+$ head -100 human_rnaseq.fastq
+$ tail -200 human_rnaseq.fastq
 ~~~
 
 
@@ -89,7 +90,7 @@ $ tail -200 01-tissue-S01_R1_001.fastq
 We use the `cp` command to make a copy files. If you want to copy a file into the same directory then used something like `cp <oringinal_filename.txt> <new_filename>`. For example:
 
 ~~~ {.bash}
-$ cp 01-tissue-S01_R1_001.fastq  Sample1_R1.fastq
+$ cp Sample_Yeast_L005_R1.cat.fastq.gz  copy_Sample_Yeast_L005_R1.cat.fastq.gz
 $ ls
 ~~~
 
@@ -97,8 +98,8 @@ You can also make a copy of the file but store it in a new location. Here's are 
 
 ~~~ {.bash}
 $ mkdir fastq_copies
-$ cp 02-tissue-S02_R1_001.fastq  fastq_copies/Sample2_R1.fastq
-$ cp 02-tissue-S02_R2_001.fastq  fastq_copies/
+$ cp Sample_Yeast_L005_R1.cat.fastq.gz  fastq_copies/
+$ cp Sample_Yeast_L005_R2.cat.fastq.gz  fastq_copies/Yeast_L005_R2.cat.fastq.gz
 $ ls fastq_copies/
 ~~~
 
@@ -106,16 +107,18 @@ $ ls fastq_copies/
 If we don't want to keep an original copy, we use the `mv` command **to move** or **to rename** files. We use the syntax `mv <origingalfilename> <newfilename>
 
 ~~~ {.bash}
-$ mv Sample1_R1.fastq fastq_copies/
-$ cd fastq_copies	
-$ mv 02-tissue-S02_R2_001.fastq Sample2_R2.fastq
+$ mv copy_Sample_Yeast_L005_R1.cat.fastq.gz fastq_copies/
+$ cd fastq_copies
+$ ls	
+$ mv Sample_Yeast_L005_R1.cat.fastq.gz Yeast_L005_R1.cat.fastq.gz
+$ ls
 ~~~
 
 ## rm 
 We can use the `rm` command to remove files. 
 
 ~~~ {.bash}
-$ rm Sample1_R1
+$ rm copy_Sample_Yeast_L005_R1.cat.fastq.gz
 ~~~
 
 To remove a non-empty directory we must add the flag ` -r`. The `-r `means recursive or, in this case, remove the directory and everything inside it.
