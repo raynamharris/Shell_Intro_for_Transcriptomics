@@ -7,34 +7,32 @@ The *shell* is a command line interface program that allows you to control your 
 * The shell gives the you power to do your work more efficiently and more quickly. This is the first step toward developing a reproducible research program.
 * Cloud computers can only be accessed through command line interfaces.
 
-
 ## How to Access the Shell
 The shell is already available on Mac and Linux machines. Windows users will have to download a separate program.
 
 ### Mac
-On a Mac, the Unix Shell is available through the program **Terminal**. To open the Terminal, go to:
+On a Mac, the Unix Shell is available through the program **Terminal**. To open the Terminal, go to:   
 
-Applications -> Utilities -> Terminal 
+Applications -> Utilities -> Terminal    
 Or
-Type Terminal in the Spotlight Search
+Type Terminal in the Spotlight Search   
 
 You may want to drag the Terminal application to your Dock for easy access.
 
 ### Windows
-On Windows machines, you will need to download a program. There are many to choose from, bit Gitbash is very novice-friendly.
+On Windows machines, you will need to download a program. There are many to choose from, bit [Git Bash](http://msysgit.github.io) is very novice-friendly. Git Bash is already installed on the Machines in FAC.
 
-Download and install [Gitbash](http://msysgit.github.io);
-Open up the program.
+## Getting Starting with the Git Bash on Windows
 
-
-## Getting Starting with the Shell
-
-Open either the Terminal (Mac) or Gitbash (Windows).
-
-The dollar sign is a **prompt**, which shows us that the shell is waiting for input. 
+When you open the program Git Bash, you should see something that looks like the following:
 
 ~~~ {.bash}
+rmharris@CNS-FAC101BP16 ~
 $
 ~~~
 
-When typing commands from these lessons, do not type the prompt($); only type the commands that follow it.
+The first line indicated the user and the computer `user@computer` as well as the path. In this case, the path is indicated by `~`, which is a shorthand for the root directory. We will discuss this more shortly.
+The `$` is a **prompt**, which shows us that the shell is waiting for you to type. 
+
+
+*Note* When following along and typing commands from these lessons, do not type the $; only type the commands that follow it.
