@@ -13,7 +13,7 @@ The Unix shell has been around longer than most of its users have been alive. It
 ## Topics Covered in this Lesson
 01. [Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/01_Intoducing_Shell.md)
 02. [Navigating the Unix File System](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/02_Navigating_Dirs.md)
-03. [Writing, Reading, Copying, Moving, Removing](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/03_ReadWriteMoveCopy.md)
+03. [Writing, Reading, Copying, Moving, Removing Things](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/03_ReadWriteMoveCopy.md)
 04. Pipes, Filters, and Loops
 05. Finding Things: Grep and History 
 06. Bash Scripts
