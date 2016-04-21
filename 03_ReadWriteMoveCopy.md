@@ -1,7 +1,13 @@
 # Lesson 03. Reading, Writing, Moving, Copying, Removing 
 
+In this part of the course, we will download some RNAseq data and practice reading, writing, moving, and copying files and directories
 
-Now, let's practice reading, writing, moving, and copying files and directories. Let's go back to our Shell_Transcriptomics
+## Getting Ready: Download the Practice Data
+For this lesson, you will need to download some files in order to follow along.
+
+1. **Download and move [this file](./data/Shell_Transcriptomics.zip) to your Desktop**
+2. If download does not start automatically, click "View Raw" to start the download.
+3. Unzip/extract the files. You should have a folder on your desktop called "Shell-Transcriptomics"
 
 ~~~ {.bash}
 cd ~/Desktop/Shell_Transcriptomics
