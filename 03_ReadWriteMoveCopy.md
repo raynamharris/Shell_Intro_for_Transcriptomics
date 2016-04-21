@@ -4,13 +4,14 @@ In this part of the course, we will download some RNAseq data and practice readi
 
 ## Getting Ready: Download the Practice Data
 For this lesson, you will need to download some files in order to follow along.
-
-1. **Download and move [this file](./data/Shell_Transcriptomics.zip) to your Desktop**
-2. If download does not start automatically, click "View Raw" to start the download.
-3. Unzip/extract the files. You should have a folder on your desktop called "Shell-Transcriptomics"
+Let's save this directory to our desktop
 
 ~~~ {.bash}
-cd ~/Desktop/Shell_Transcriptomics
+$ cd
+$ cd Desktop
+$ git clone https://github.com/raynamharris/DataForUnixCourse.git
+$ cd DataForUnixCourse
+
 ~~~
 
 ## mkdir
