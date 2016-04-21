@@ -1,7 +1,7 @@
 # Lesson 01. Introducing the Shell
 
 ## Background
-The *shell* is a command line interface program that allows you to control your computer with a keyboard rather than using your mouse and keyboard to control your computer through a graphical user interface (GUI). It may seem strange and difficult at first, but there are  many reasons master the shell.
+The **shell** is a command line interface program that allows you to control your computer with a keyboard rather than using your mouse and keyboard to control your computer through a graphical user interface (GUI). It may seem strange and difficult at first, but there are  many reasons master the shell.
 
 * Most bioinformatics programs can only be run from the command line. So, you will have to become familiar with the shell if you want to work in genomics or transcriptomics.
 * The shell gives the you power to do your work more efficiently and more quickly. This is the first step toward developing a reproducible research program.
@@ -31,8 +31,11 @@ rmharris@CNS-FAC101BP16 ~
 $
 ~~~
 
-The first line indicated the user and the computer `user@computer` as well as the path. In this case, the path is indicated by `~`, which is a shorthand for the root directory. We will discuss this more shortly.
+The first line indicated the user and the computer `user@computer` as well as the path. In this case, the path is indicated by `~`, which is a shorthand for the root directory. We will discuss this in the next lesson.
 The `$` is a **prompt**, which shows us that the shell is waiting for you to type. 
 
 
-*Note* When following along and typing commands from these lessons, do not type the $; only type the commands that follow it.
+**Note:** When following along and typing commands from these lessons, do not type the $; only type the commands that follow it.
+
+## Proceed to the Next lesson
+**Next Lesson:** [02 Navigating Directories](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/02_Navigating_Dirs.md)  
