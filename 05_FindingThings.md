@@ -168,7 +168,7 @@ $ history | grep "pwd"
 3. How many times did you look at the contents of a directory today?
 
 # 
-Moral of the story: Most of what we do at the command line is navigate directories with `cd` and `ls`. Then, 
+Moral of the story: Most of what we do at the command line is navigate directories with `cd` and `ls`. 
 
 
 ## Proceed to the Next or Previous lesson
