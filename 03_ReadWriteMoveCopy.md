@@ -59,39 +59,54 @@ $ cat hello.txt hellohello.txt
 $ 
 ~~~
 
+### head and tail
+`head <filename>` and `tail <filename>` are two commands that print a select number of lines of the file to the screen. The default is to print 10 lines. We can use the flag `-n 4` to print the first 4 lines
+
+~~~ {.bash}
+$ head -n 4 SRR534005_01_R1.fastq
+~~~
+~~~ {.output}
+@SRR534005.201 HWI-ST945:93:c02g4acxx:3:1101:11521:2210/1
+GAAAAGTTCAGCTTCAATACTGCATGGAACTTCGAGAAGAAAAAGCTCATGGATTTTCTTTATTCATAAACCTCCTGCCAAATAAATGAATTAATTGAAA
++
+BBCFFFDFHHHHHJJJJIJJJJJJJJJJJJJJJJGJGJJIJJJJJJIJJJJJHIJJJJIJJJJJJJJJJJJJIJHHHHHFFFFFEEEEDEEEDDEEDDDD
+~~~
+
+~~~ {.bash}
+$ tail -n 4 SRR534005_01_R1.fastq
+~~~
+~~~ {.output}
+@SRR534005.300 HWI-ST945:93:c02g4acxx:3:1101:16320:2026/1
+CAGGTCCAAAATAATAGTCTGAGTAAAGCANAACACTCACATGAGACCTGAGGTTAGCAGGCTGTATTTAACAGGTGCCTAATTTTTGGGTAATGCTGCC
++
+CCCFDFFFHGHHHIJIJFHIIHJFHIIJII#2?FHIIJJJJJJJJJJJIJJJJFEBFGAFFG;F;@EHHHGGCHG>=@CCDCEEEECDDB;@?>>C3>C<
+~~~
+
+You might want to view a few more lines. This examples will show the first 100 and then the last 200 lines. But, its not very easy to see the whole file this way. 
+
+~~~ {.bash}
+$ head -n 100 SRR534005_01_R1.fastq
+$ tail -n 200 SRR534005_01_R1.fastq
+~~~
+
 ### less
 `less <filename>` will open up a program called less so that you can view and scroll through the contents. This is nice for looking at larger files. Let's move out of the practice file and look at a fasta file.
 
 
 ~~~ {.bash}
 $ cd ..
-$ less human_rnaseq.fastq
+$ less SRR534005_01_R1.fastq
 ~~~
 
 This is a nice way to view this fairly large file using the up and down arrows. 
 Hit the `q` key to quit the program less. 
-
-### head and tail
-`head <filename>` and `tail <filename>` are two commands that print the first or last, respectively, 5 lines of the file to the screen. 
-
-~~~ {.bash}
-$ head human_rnaseq.fastq
-$ tail human_rnaseq.fastq
-~~~
-
-If you want to view more than 5 lines, we can modify the command. This examples will show the first 100 and then the last 200 lines
-
-~~~ {.bash}
-$ head -100 human_rnaseq.fastq
-$ tail -200 human_rnaseq.fastq
-~~~
 
 
 ## cp
 We use the `cp` command to make a copy files. If you want to copy a file into the same directory then used something like `cp <oringinal_filename.txt> <new_filename>`. For example:
 
 ~~~ {.bash}
-$ cp Sample_Yeast_L005_R1.cat.fastq.gz  copy_Sample_Yeast_L005_R1.cat.fastq.gz
+$ cp yeast_01_R1.fastq.gz  copy_yeast_01_R1.fastq.gz
 $ ls
 ~~~
 
@@ -99,8 +114,8 @@ You can also make a copy of the file but store it in a new location. Here's are 
 
 ~~~ {.bash}
 $ mkdir fastq_copies
-$ cp Sample_Yeast_L005_R1.cat.fastq.gz  fastq_copies/
-$ cp Sample_Yeast_L005_R2.cat.fastq.gz  fastq_copies/Yeast_L005_R2.cat.fastq.gz
+$ cp yeast_01_R2.fastq.gz fastq_copies/
+$ cp yeast_02_R2.fastq.gz  fastq_copies/copy-yeast_02_R2.fastq.gz
 $ ls fastq_copies/
 ~~~
 
@@ -108,10 +123,10 @@ $ ls fastq_copies/
 If we don't want to keep an original copy, we use the `mv` command **to move** or **to rename** files. We use the syntax `mv <origingalfilename> <newfilename>
 
 ~~~ {.bash}
-$ mv copy_Sample_Yeast_L005_R1.cat.fastq.gz fastq_copies/
+$ mv copy_yeast_01_R1.fastq.gz fastq_copies/
 $ cd fastq_copies
 $ ls	
-$ mv Sample_Yeast_L005_R1.cat.fastq.gz Yeast_L005_R1.cat.fastq.gz
+$ mv yeast_01_R2.fastq.gz copy-yeast_01_R2.fastq.gz
 $ ls
 ~~~
 
@@ -119,7 +134,7 @@ $ ls
 We can use the `rm` command to remove files. 
 
 ~~~ {.bash}
-$ rm copy_Sample_Yeast_L005_R1.cat.fastq.gz
+$ rm copy-yeast_01_R2.fastq.gz
 ~~~
 
 To remove a non-empty directory we must add the flag ` -r`. The `-r `means recursive or, in this case, remove the directory and everything inside it.
