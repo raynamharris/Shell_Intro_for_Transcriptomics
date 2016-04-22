@@ -24,18 +24,48 @@ $ ls
 $ cd practice
 ~~~
 
-## echo, >, and >> 
+## echo 
 
 `echo` is a command we can use to print something to the screen, like "Hello, World." 
 
 ~~~ {.bash}
-$ echo Hello, World.
+$ echo 'Hello, World.'
 ~~~
 ~~~ {.output}
 Hello, World.
 ~~~
 
-Here, the standard output is to your screen, which is why you can see it. But, we can also redirect the output elsewhere, like to a text file with `>` or `>>`. The `>` will send the output to a file, overriding anything that may have already been there. The  `>>` will append the input to a new line of the file. Let's take a look
+Do we really need to put the word or phrase we want to echo in quotes? Let's try priting hello to the screen with and without quotes.
+
+~~~ {.bash}
+$ echo 'hello'
+~~~
+~~~ {.output}
+hello
+~~~
+
+~~~ {.bash}
+$ echo hello
+~~~
+~~~ {.output}
+hello
+~~~
+
+So, that worked fine either way. Let's try echoing hello with exclamation marks! 
+
+~~~ {.bash}
+$ echo hello!!
+~~~
+~~~ {.output}
+echo helloecho hello!
+helloecho hello!
+~~~
+
+Wow, what happened there?  This is one example when what you want to say needs to be in a quote. We will see more later.
+
+## Writing files with `echo >` and `echo >>`
+
+In these examples, the standard output went the screen, which is why you can see it. But, we can also redirect the output elsewhere, like to a text file with `>` or `>>`. The `>` will send the output to a file, overriding anything that may have already been there. The  `>>` will append the input to a new line of the file. Let's take a look
 
 ~~~ {.bash}
 $ echo hello > hello.txt
@@ -44,6 +74,7 @@ $ echo hello >> hellohello.txt
 $ echo hello >> hellohello.txt
 $ ls
 ~~~
+
 
 ## Looking at files with cat, head, tail, and less
 
