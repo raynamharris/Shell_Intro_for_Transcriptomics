@@ -131,17 +131,6 @@ $ rm -r fastq_copies/
 
 If you want to remove an empty directory, you can use `rm -r` or `rmdir`.
 
-## gunzip
-
-The next thing we want to do before we move on is to unzip our files so we can look at the sequences. The command for this is `gunzip`
-
-~~~ {.bash}
-$ gunzip Sample_Yeast_L005_R1.cat.fastq.gz
-$ ls
-$ gunzip *.gz
-~~~
-
-
 # FIXME
 # Socrative Unix-Files-Exercise
 Login to Socrative as a Student.
