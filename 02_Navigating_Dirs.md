@@ -222,13 +222,13 @@ $ cd
 ~~~
 
 
-Here is a summary of some of the commands we just practiced.
+## Here is a summary of some of the commands we just practiced.
 
 ![Navigating Files](figures/nav_dirs.png)
 
 
 ## Tab Completion Shortcut
-We just learned a few shorthand notations that save us time typing. Another very useful shortcut is refered to as tab completion. When typing a directory or file name, we can type the first few character then hit the `	tab` button and our computer will automatically add the following unique characters. 
+We just learned a few shorthand notations that save us time typing. Another very useful shortcut is refered to as tab completion. When typing a directory or file name, we can type the first few character then hit the `tab` button and our computer will automatically add the following unique characters. 
 
 
 # Socrative Unix-Directories-Exercise
