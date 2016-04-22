@@ -29,14 +29,15 @@ Next, let’s find out where we are by running a command called `pwd` which stan
 $ pwd
 ~~~
 ~~~ {.output}
+rmharris@CNS-FAC101BP16 ~
 /c/Users/rmharris
 ~~~
 
 This is your **home directory**. To understand what a  home directory  is, let's have a look at how the file system as a whole is organized. For the sake of example, we'll be illustrating the filesystem on our scientist Nelle's computer. After this illustration, you'll be learning commands to explore your own filesystem, which will be constructed in a similar way, but not be exactly identical.
 
-Note: The home directory path will look different on different operating systems. On Linux it may look like /Users/raynamharris but on Windows it will look more like C:\Users\raynamharris. In future examples, we’ve used Mac output as the default.
+Note: The home directory path will look different on different operating systems. On a Mac  it may look like /Users/<username> but on Windows it will look more like /c/Users/<username>. In future examples, we’ve used Mac output as the default.
 
-# Add picture and description here!!!!
+![Home Directory and Class Directory](figures/root.png)
 
 
 ## ls
