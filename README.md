@@ -15,9 +15,9 @@ The Unix shell has been around longer than most of its users have been alive. It
 01. [Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/01_Intoducing_Shell.md)
 02. [Navigating the Unix File System](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/02_Navigating_Dirs.md)
 03. [Writing, Reading, Copying, Moving, Removing Things](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/03_ReadWriteMoveCopy.md)
-04. [Pipes, Filters, and Loops](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/04_PipesFiltersLoops.md)
+04. [Pipes and Filters](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/04_PipesFiltersLoops.md)
 05. [Finding Things: Grep and History](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/05_FindingThings.md)
-06. [Bash Scripts](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/06_BashScripts.md)
+06. [For Loops and Bash Scripts](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/06_BashScripts.md)
 
 ## Further Reading
 - [Practical Computing for Biologists](http://practicalcomputing.org/) This is a highly recommended book for people looking for a systematic presentation on shell scripting, programming, UNIX, etc.
@@ -39,3 +39,4 @@ This lesson was inspired by other awesome lessons taught by my colleagues. The i
 - [CCBB's 4 day Intro RNA-sequencing Course](https://wikis.utexas.edu/display/bioiteam/Introduction+to+RNA+Seq+Course+2014)
 - [CCBB 4 day Intro to Next Generation Sequencing](https://wikis.utexas.edu/display/CoreNGSTools/Core+NGS+Tools+Home)
 - [Kate's Socrative Tutorial](http://pad.software-carpentry.org/swc-instructor-retreat-2015-8PM-UTC)
+- [Scott's List of Unix One Liners](https://wikis.utexas.edu/display/bioiteam/Scott's+list+of+linux+one-liners)
