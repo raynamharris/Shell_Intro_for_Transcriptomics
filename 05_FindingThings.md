@@ -172,5 +172,5 @@ Moral of the story: Most of what we do at the command line is navigate directori
 
 
 ## Proceed to the Next or Previous lesson
-**Next Lesson:** [06 Bash Scripts](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/06_BashScripts.md) 
-**Previous Lesson** [04 Pipes, Filters, and Loops](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/04_PipesFiltersLoops.md)
+**Next Lesson:** [06 For Loops](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/06_ForLoops.md) 
+**Previous Lesson** [04 Pipes and Filters](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/04_PipesFilters.md)

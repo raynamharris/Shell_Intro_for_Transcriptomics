@@ -1,4 +1,4 @@
-# Lesson 04: Pipes, Filters, and Loops
+# Lesson 04: Pipes and Filters
 
 Rather than creating complex programs that do many different things, Unix programmers focus on creating simple tools that each do one job well. The simple tools can then be combined with one another to carry out more complex processes. This programming model is called “pipes and filters”. The key is that any program that reads lines of text from standard input and writes lines of text to standard output can be combined with every other program that behaves this way as well. 
 
