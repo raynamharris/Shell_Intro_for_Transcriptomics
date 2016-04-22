@@ -123,8 +123,18 @@ SRR534005_03_R1.fastq
 SRR534005_03_R2.fastq
 ~~~
 
-## Bash Scripts
+### Now incorporating pipes and filters with a super Unix One Liner
 
+So, renaming things may or may not be that exciting to you. Let's add Scott's one liner. All you have to do is replace the filename with $file and you can print the most abundance sequences for all these samples. Adjust the script to only print the top sequence with `head -n 2`. 
+
+~~~ {.bash}
+$ for file in *fastq
+>	do echo $file
+>	head -100000 $file | grep -A 1 '^@HWI' | grep -v '^@HWI' | sort | uniq -c | sort -n -r | head -n 2
+>	done
+~~~
+
+## Bash Scripts
 
 
 ## Proceed to the Previous lesson
