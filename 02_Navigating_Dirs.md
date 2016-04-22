@@ -35,7 +35,7 @@ rmharris@CNS-FAC101BP16 ~
 
 This is your **home directory**. To understand what a  home directory  is, let's have a look at how the file system as a whole is organized. For the sake of example, we'll be illustrating the filesystem on our scientist Nelle's computer. After this illustration, you'll be learning commands to explore your own filesystem, which will be constructed in a similar way, but not be exactly identical.
 
-Note: The home directory path will look different on different operating systems. On a Mac  it may look like /Users/<username> but on Windows it will look more like /c/Users/<username>. In future examples, we’ve used Mac output as the default.
+Note: The home directory path will look different on different operating systems. On a Mac  it may look like /Users/username but on Windows it will look more like /c/Users/username. In future examples, we’ve used Mac output as the default.
 
 ![Home Directory and Class Directory](figures/home_dir.png)
 
@@ -48,10 +48,12 @@ If we want to see the contents of our own filesystem, we cannot simply double cl
 $ ls
 ~~~
 ~~~ {.output}
-Applications	Downloads             
-Desktop			Github 
-Dropbox			Movies    
-Documents		Music           
+DataForUnixCourse	             
+Desktop			 
+Downloads
+Music   
+Pictures
+...	           
 ~~~
 
 This is cool, but we can view a lot more information about our files by using **flags** or **arguments**. Let's explore the following: `ls -t`, and `ls -tlh`. The -t flag will sort things in order by the time last edited. We can combine flags to do multiple things at a time, like sort by time (-t), list all the details (-l), and display the file size in human readable format (-h).
@@ -143,11 +145,19 @@ $ ls
 ~~~
 
 ~~~ {.output}
-01-tissue-S01_R1_001.fastq	03-tissue-S03_R1_001.fastq	05-neuron-S05_R1_001.fastq
-01-tissue-S01_R2_001.fastq	03-tissue-S03_R2_001.fastq	05-neuron-S05_R2_001.fastq
-02-tissue-S02_R1_001.fastq	04-neuron-S04_R1_001.fastq	06-neuron-S06_R1_001.fastq
-02-tissue-S02_R2_001.fastq	04-neuron-S04_R2_001.fastq	06-neuron-S06_R2_001.fastq
-~~~
+SRR534005_01_R1.fastq
+SRR534005_01_R2.fastq.gz
+SRR534005_02_R1.fastq.gz
+SRR534005_02_R2.fastq.gz
+SRR534005_03_R1.fastq.gz
+SRR534005_03_R2.fastq.gz
+human_01_R1.fastq.gz
+human_02_R1.fastq.gz
+yeast_01_R1.fastq.gz
+yeast_01_R2.fastq.gz
+yeast_02_R1.fastq.gz
+yeast_02_R2.fastq.gz
+~~
 
 ## Relative vs Full Paths
 The directories on the computer are arranged into a hierarchy.Directories can be specified using either a **relative path** or a **full path**. The relative path is relative to your current directory, but the full path is indifferent to the current directory. 
@@ -172,29 +182,49 @@ We can change directories by giving full or relative paths.
 
 ## Shortcuts to Home
 
-To go home, we could type the full path `/Users/raynamharris` but that requires a lot of typing. The following commands will also take you home:  
+To go home, we could type the full path `/Users/username` but that requires a lot of typing. The `~` can be used in place of `/c/Users/username` in full path descriptions. But, even the `~` is too much typing for Unix folks, so `cd` followed by nothing but the return or enter key will take you home. Thus, all these three commands will take you home no matter where you are in your file system:  
 
 ~~~ {.bash}
-$ cd
+$ cd /c/Users/username
 $ cd ~
-$ cd /c/Users/rmharris
+$ cd
 ~~~
 
-Note: The `~` can be used in place of `/c/Users/rmharris` in full path descriptions. 
 
-# Challenge: Full and Relative Paths
-For a hypothetical filesystem location of `/c/Users/amanda/data/`, which of the following commands could Amanda use to navigate to her home directory.
+## Three navingating the file system challenges
 
-cd   
-cd .   
-cd ..   
-cd ../..   
-cd /   
-cd home   
-cd /home/amanda   
-cd /c/Users/amanda   
-cd ~   
-cd ~/data/..   
+1. **In two steps, navigate to your "Downloads" directory then to your "Pictures" Directory**
+
+One solution
+~~~ {.bash}
+$ cd ~/Downloads
+$ cd ../Pictures
+~~~
+
+Another solution solution
+~~~ {.bash}
+$ cd ~/Downloads
+$ cd ~/Pictures
+~~~
+
+2. **Navigate to your "data" directory. Next navigate to your "Desktop" using relative commands.**
+
+One solution
+~~~ {.bash}
+$ cd ~/Desktop/DataForUnixCourse/data
+$ cd ../..
+~~~
+
+3. **What command will get you from anywhere in your file system to your home directory with the fewest key strokes?**
+
+~~~ {.bash}
+$ cd 
+~~~
+
+
+Here is a summary of some of the commands we just practiced.
+
+![Navigating Files](figures/nav_dirs.png)
 
 
 ## Tab Completion Shortcut
