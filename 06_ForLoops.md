@@ -53,6 +53,8 @@ SRR534005_03_R1.fastq
 SRR534005_03_R2.fastq
 ~~~
 
+**Note:** Sometimes instead of typing `echo $whatever` you actually need to type `echo ${whatever}`. This is especially true when you are inserting it into a line with other characters. In the same way that the quotes were necessary for `echo 'hello!!'` but not for `echo 'hello'`, sometimes the {} and mandatory and sometimes the {} are optional.
+
 ### echo $file copy-$file
 
 Let's say we want to make a copy and give that copy a new name. Before we actually do that, its good to test what the new name will look like with echo
