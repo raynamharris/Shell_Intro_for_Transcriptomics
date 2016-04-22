@@ -139,4 +139,4 @@ $ for file in *fastq
 
 ## Proceed to the Previous lesson
 **Next Lesson** [07 Bash Scripts](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/07_BashScripts.md)
-**Previous Lesson** [05 Finding Things: Grep and History](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/05_FindingThings.md) 
+**Previous Lesson** [05 grep, uniq, and history](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/05_FindingThings.md) 

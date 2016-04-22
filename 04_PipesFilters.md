@@ -134,5 +134,5 @@ In the meantime, lets take a look at grep in more detail.
 
 
 ## Proceed to the Next and Previous lessons
-**Next Lesson:** [05 Finding Things: Grep and History](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/05_FindingThings.md)     
+**Next Lesson:** [05 grep, uniq, and history](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/05_FindingThings.md)     
 **Previous Lesson:** [03 Read Write Move Copy](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/03_ReadWriteMoveCopy.md)
