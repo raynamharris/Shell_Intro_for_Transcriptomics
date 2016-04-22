@@ -16,10 +16,10 @@ FASTQ format is a text-based format for storing both a biological sequence and a
 
 A FASTQ file normally uses four lines per sequence.
 
-**Line 1** begins with a '@' character and is followed by a series of information that uniquely identifies each read. Thus, this is our sequence. Here is one example:
+**Line 1** begins with a '@' character and is followed by a series of information that uniquely identifies each read. Thus, this is our sequence. Here are two example:
 
-machine_id:lane:flowcell_grid_coordinates  end_number:failed_qc:0:barcode
-@HWI-ST1097:127:C0W5VACXX:5:1101:4820:2124 1:N:0:CTCAGA    
+@HWI-ST1097:127:C0W5VACXX:5:1101:4820:2124 1:N:0:CTCAGA  
+@SRR534005.299 HWI-ST945:93:c02g4acxx:3:1101:16012:2225/1  
 
 **Line 2** is the raw sequence. The lenght of this sequence should correspond to the length of the read requested (i.e. 75 bp, 150 bp). These are AGTC or N uppercase characters.
 
