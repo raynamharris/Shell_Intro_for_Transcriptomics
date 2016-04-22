@@ -191,9 +191,9 @@ $ cd
 ~~~
 
 
-## Three navingating the file system challenges
+## Three "navigating the file system" challenges
 
-1. **In two steps, navigate to your "Downloads" directory then to your "Pictures" Directory**
+**1. In two steps, navigate to your "Downloads" directory then to your "Pictures" Directory**
 
 One solution
 ~~~ {.bash}
@@ -207,7 +207,7 @@ $ cd ~/Downloads
 $ cd ~/Pictures
 ~~~
 
-2. **Navigate to your "data" directory. Next navigate to your "Desktop" using relative commands.**
+**2. Navigate to your "data" directory. Next navigate to your "Desktop" using relative commands.**
 
 One solution
 ~~~ {.bash}
@@ -215,7 +215,7 @@ $ cd ~/Desktop/DataForUnixCourse/data
 $ cd ../..
 ~~~
 
-3. **What command will get you from anywhere in your file system to your home directory with the fewest key strokes?**
+**3. What command will get you from anywhere in your file system to your home directory with the fewest key strokes?**
 
 ~~~ {.bash}
 $ cd 
