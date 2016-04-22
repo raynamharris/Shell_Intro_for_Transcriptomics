@@ -154,12 +154,14 @@ Like everything else, you can pipe the results of your history to a new file or 
 $ history | grep "pwd"
 ~~~
 
-~~~ {.output}   77  pwd
+~~~ {.output}   
+  77  pwd
   232  pwd
   236  pwd
   243  pwd
   557  history | grep "pwd" 
 ~~~
+
 
 # Challenge: Search your history to see what commands you use most frequently
 
