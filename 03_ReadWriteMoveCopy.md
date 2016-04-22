@@ -61,6 +61,13 @@ echo helloecho hello!
 helloecho hello!
 ~~~
 
+~~~ {.bash}
+$ echo 'hello!!'
+~~~
+~~~ {.output}
+hello!!
+~~~
+
 Wow, what happened there?  This is one example when what you want to say needs to be in a quote. We will see more later.
 
 ## Writing files with `echo >` and `echo >>`
