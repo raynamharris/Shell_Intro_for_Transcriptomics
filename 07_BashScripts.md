@@ -8,8 +8,6 @@ Bash scripts are text files that end in `.sh`. Also, for cloud computing, they m
 
 So, let's start by making a file with that header.
 
-## bash overrepresented.sh
-
 ~~~ {.bash}
 $ echo '#!/bin/bash' >> overrepresented.sh
 ~~~
@@ -20,6 +18,8 @@ Now lets append the for loop we wrote earlier to find the most overrepresented s
 $ echo 'for file in *fastq; do echo $file; head -100000 $file | grep -A 1 '^@HWI' | grep -v '^@HWI' | sort | uniq -c | sort -n -r | head -n 2; done' >> overrepresented.sh 
 ~~~
 
+## bash overrepresented.sh
+
 To execute the command, type `bash overrepresented.sh`
 
 ~~~ {.bash}
@@ -29,6 +29,6 @@ $ bash overrepresented.sh
 The answer is the same, but now we don't have to keep typing the for loop everytime we need to call it!  
 
 ## Proceed Previous lesson
-**Previous Lesson:** [06 Bash Scripts](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/06_ForLoops.md) 
+**Previous Lesson:** [06 For Loops](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/06_ForLoops.md) 
 
 
