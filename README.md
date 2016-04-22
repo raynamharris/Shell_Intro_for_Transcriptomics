@@ -41,3 +41,6 @@ This lesson was inspired by other awesome lessons taught by my colleagues. The i
 - [CCBB 4 day Intro to Next Generation Sequencing](https://wikis.utexas.edu/display/CoreNGSTools/Core+NGS+Tools+Home)
 - [Kate's Socrative Tutorial](http://pad.software-carpentry.org/swc-instructor-retreat-2015-8PM-UTC)
 - [Scott's List of Unix One Liners](https://wikis.utexas.edu/display/bioiteam/Scott's+list+of+linux+one-liners)
+
+## Proceed the Lesson Materials
+[00 The Motivating Dataset](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/00_Motivating_Dataset.md)
