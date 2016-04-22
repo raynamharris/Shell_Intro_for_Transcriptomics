@@ -34,8 +34,17 @@ $
 The first line indicated the user and the computer `user@computer` as well as the path. In this case, the path is indicated by `~`, which is a shorthand for the root directory. We will discuss this in the next lesson.
 The `$` is a **prompt**, which shows us that the shell is waiting for you to type. 
 
-
 **Note:** When following along and typing commands from these lessons, do not type the $; only type the commands that follow it.
+
+## Configuring Git Bash to work with Notepad
+
+Git Bash doesn't have a text editor, but we can make ours work with notepad (or some other text editor that is install on the computer.
+
+~~~ {.bash}
+$ git config --global core.editor notepad
+~~~
+
+We don't have to do this for class, but its useful for future reference.
 
 ## Proceed to the Next or Previous lesson
 **Next Lesson:** [02 Navigating Directories](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/02_Navigating_Dirs.md)  
