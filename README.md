@@ -16,16 +16,16 @@ The Unix shell has been around longer than most of its users have been alive. It
 02. [Navigating the Unix File System](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/02_Navigating_Dirs.md)
 03. [Writing, Reading, Copying, Moving, Removing Things](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/03_ReadWriteMoveCopy.md)
 04. [Pipes and Filters](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/04_PipesFiltersLoops.md)
-05. [Finding Things: Grep and History](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/05_FindingThings.md)
+05. [grep, uniq, and history](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/05_FindingThings.md)
 06. [For Loops](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/06_ForLoops.md)
 07. [Bash Scripts](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/07_BashScripts.md)
 
 ## Further Reading
 - [Practical Computing for Biologists](http://practicalcomputing.org/) This is a highly recommended book for people looking for a systematic presentation on shell scripting, programming, UNIX, etc.
-- A Quick Guide to Organizing Computational Biology Projects, Noble, PLoS Comp Biology, 2009.
+- [A Quick Guide to Organizing Computational Biology Projects, Noble, PLoS Comp Biology, 2009.](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424)
 
 ## Useful Resources
-http://explainshell.com Not sure what a command means/does? Type it into hear and get an explanation
+http://explainshell.com Not sure what a command means/does? Type it here and get a very easy to understand explanation!
 
 
 ## Acknowledgements
