@@ -21,7 +21,7 @@ $ notepad overrepresented.sh
 Then insert the following line into the text file and save.
 
 ~~~
-for file in *fastq; do echo $file; head -100000 $file | grep -A 1 '^@HWI' | grep -v '^@HWI' | sort | uniq -c | sort -n -r | head -n 2; done 
+for file in *fastq; do echo $file; head -100000 ${file} | grep -A 1 '^@HWI' | grep -v '^@HWI' | sort | uniq -c | sort -n -r | head -n 2; done 
 ~~~
 
 To execute the command, type `bash overrepresented.sh`
@@ -68,8 +68,12 @@ Now, we need to make two modifications to the script:
 Here's one solution 
 
 ~~~
-for file in ../data/*fastq; do echo $file; head -100000 $file | grep -A 1 '^@HWI' | grep -v '^@HWI' | sort | uniq -c | sort -n -r | head -n 2; done  > ../results/overrepresented.txt
+for file in ../data/*fastq; do echo $file; head -100000 ${file} | grep -A 1 '^@HWI' | grep -v '^@HWI' | sort | uniq -c | sort -n -r | head -n 2; done  > ../results/overrepresented.txt
 ~~~ 
+ 
+~~~ {.bash}
+$ bash overrepresented.sh 
+~~~
  
 Since nothing printed to the screen, we can use `ls` to see if the file is there or `head` to view the first ten lines
  
@@ -77,7 +81,33 @@ Since nothing printed to the screen, we can use `ls` to see if the file is there
 $ ls ../results
 $ head ../results/overrepresented.txt
 ~~~ 
+
+### Using the bash variable "$1"
+That's nice, but what if we only want to do this for one sequence at a time, but we want this to work for future data sets. This is why variables are awesome. 
+
+Let's replace `*.fastq` with the variable `"$1"` and prepend `"$1"` to overrepresented.txt. 
+
+~~~
+for file in ../data/"$1"; do echo $file; head -100000 ${file} | grep -A 1 '^@HWI' | grep -v '^@HWI' | sort | uniq -c | sort -n -r | head -n 2; done  > ../results/"$1"-overrepresented.txt
+~~~
+
+Now, when we execute the command, we will also specify the variable.
+
+~~~ {.bash}
+$ bash overrepresented.sh copy-human_01_R1.fastq
+~~~
  
+### Using the bash variable "$@"
+
+Using `"$1"` or even `"$1"` and `"$2"` is nice when you want to work with a discrete number of files. However, if you want to use the `*` wildcard, you need to use the variable `"$@"`. Let's modify our overrepresnted
+
+~~~
+for file in ../data/"$@"; do echo $file; head -100000 ${file} | grep -A 1 '^@HWI' | grep -v '^@HWI' | sort | uniq -c | sort -n -r | head -n 2; done  > ../results/"$@"-overrepresented.txt
+~~~
+
+~~~ {.bash}
+$ bash overrepresented.sh *.fastq
+~~~ 
 
 ## Proceed Previous lesson
 **Previous Lesson:** [06 For Loops](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/06_ForLoops.md) 
