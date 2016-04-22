@@ -1,4 +1,4 @@
-# Lesson 05: Finding Things: Grep and History
+# Lesson 05: Finding Things: grep, uniq and history
 
 ## grep
 
