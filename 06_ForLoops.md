@@ -1,4 +1,4 @@
-# Lesson 06: Bash Scripts and For Loops
+# Lesson 06: For Loops
 
 ## Loops
 Loops can really improve productivity through automation as they allow us to execute commands repetitively. Like to wildcards and tab completion, using loops also reduces the amount of typing (and typing mistakes). 
@@ -138,4 +138,5 @@ $ for file in *fastq
 
 
 ## Proceed to the Previous lesson
+**Next Lesson** [07 Bash Scripts](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/07_BashScripts.md)
 **Previous Lesson** [05 Finding Things: Grep and History](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/05_FindingThings.md) 

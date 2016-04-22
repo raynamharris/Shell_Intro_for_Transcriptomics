@@ -17,7 +17,8 @@ The Unix shell has been around longer than most of its users have been alive. It
 03. [Writing, Reading, Copying, Moving, Removing Things](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/03_ReadWriteMoveCopy.md)
 04. [Pipes and Filters](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/04_PipesFiltersLoops.md)
 05. [Finding Things: Grep and History](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/05_FindingThings.md)
-06. [For Loops and Bash Scripts](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/06_BashScripts.md)
+06. [For Loops](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/06_ForLoops.md)
+07. [Bash Scripts](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/07_BashScripts.md)
 
 ## Further Reading
 - [Practical Computing for Biologists](http://practicalcomputing.org/) This is a highly recommended book for people looking for a systematic presentation on shell scripting, programming, UNIX, etc.
