@@ -155,7 +155,7 @@ $ history | grep "pwd"
 ~~~
 
 ~~~ {.output}   
-  77  pwd
+  77   pwd
   232  pwd
   236  pwd
   243  pwd
