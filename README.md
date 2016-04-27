@@ -10,6 +10,10 @@ The Unix shell has been around longer than most of its users have been alive. It
 - Learn to view, create, and manipulate files and directories
 - Learn to automate tasks to build reproducible research practices
 
+## Etherpad for Collaborative Notetaking
+All the notes from today's class can be found in the Etherpad
+https://etherpad.wikimedia.org/p/2016-04-28-intro-to-unix
+
 ## Topics Covered in this Lesson
 00. [The Motivating Dataset](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/00_Motivating_Dataset.md)
 01. [Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/01_Intoducing_Shell.md)
@@ -39,8 +43,8 @@ This lesson was inspired by other awesome lessons taught by my colleagues. The i
 - [Software Carpentry R Novice Gapminder](https://github.com/swcarpentry/r-novice-gapminder)
 - [CCBB's 4 day Intro RNA-sequencing Course](https://wikis.utexas.edu/display/bioiteam/Introduction+to+RNA+Seq+Course+2014)
 - [CCBB 4 day Intro to Next Generation Sequencing](https://wikis.utexas.edu/display/CoreNGSTools/Core+NGS+Tools+Home)
-- [Kate's Socrative Tutorial](http://pad.software-carpentry.org/swc-instructor-retreat-2015-8PM-UTC)
 - [Scott's List of Unix One Liners](https://wikis.utexas.edu/display/bioiteam/Scott's+list+of+linux+one-liners)
+- [2015 Peer-led Biocomputing Working Group](https://github.com/sjspielman/UTbiocomputing2015)
 
 ## Proceed to the Lesson Materials
 [00 The Motivating Dataset](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/00_Motivating_Dataset.md)
