@@ -157,7 +157,7 @@ yeast_01_R1.fastq.gz
 yeast_01_R2.fastq.gz
 yeast_02_R1.fastq.gz
 yeast_02_R2.fastq.gz
-~~
+~~~
 
 ## Relative vs Full Paths
 The directories on the computer are arranged into a hierarchy.Directories can be specified using either a **relative path** or a **full path**. The relative path is relative to your current directory, but the full path is indifferent to the current directory. 

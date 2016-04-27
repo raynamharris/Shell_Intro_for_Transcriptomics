@@ -23,7 +23,7 @@ Command | Translation | Examples
 Shortcut | Use
 ----------|-----
 Ctrl + C | kills current process
-Ctrl + L <br> (or `clear`) | clears screen
+Ctrl + L | clears screen
 Ctrl + A | Go to the beginning of the line
 Ctrl + E | Go to the end of the line
 Ctrl + U | Clears the line before the cursor position
