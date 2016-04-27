@@ -62,7 +62,7 @@ Let's say we want to make a copy and give that copy a new name. Before we actual
 ~~~ {.bash}
 $ for file in *.fastq
 > do
->    echo $file copy-$file
+>    echo ${file} copy-${file}
 > done
 ~~~
 
@@ -107,7 +107,7 @@ copy-SRR534005_03_R2.fastq copy-chicken_03_R2.fastq
 What we have done here is echo the file but we have replaced the SRR thing with chicken.  Now to make the replacement we can use the `mv` command.
 
 ~~~ {.bash}
-$ for file in copy-SRR534005*; do mv $file ${file//SRR534005/chicken}; done
+$ for file in copy-SRR534005*; echo $file ${file//SRR534005/chicken}; do mv $file ${file//SRR534005/chicken}; done
 ~~~
 
 ~~~ {.output}
@@ -125,18 +125,6 @@ SRR534005_03_R1.fastq
 SRR534005_03_R2.fastq
 ~~~
 
-### Now incorporating pipes and filters with a super Unix One Liner
-
-So, renaming things may or may not be that exciting to you. Let's add Scott's one liner. All you have to do is replace the filename with $file and you can print the most abundance sequences for all these samples. Adjust the script to only print the top sequence with `head -n 2`. 
-
-~~~ {.bash}
-$ for file in *fastq
->	do echo $file
->	head -100000 $file | grep -A 1 '^@HWI' | grep -v '^@HWI' | sort | uniq -c | sort -n -r | head -n 2
->	done
-~~~
-
-## Bash Scripts
 
 
 ## Proceed to the Previous lesson
