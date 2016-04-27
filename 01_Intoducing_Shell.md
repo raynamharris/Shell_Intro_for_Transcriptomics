@@ -36,6 +36,32 @@ The `$` is a **prompt**, which shows us that the shell is waiting for you to typ
 
 **Note:** When following along and typing commands from these lessons, do not type the $; only type the commands that follow it.
 
+## Configuring Text Editors
+
+### Using Notepad++Configuring Git Bash to work with Notepad
+
+Notepadd++ is great for writing scripts because the formatting helps you understand your code. Git Bash doesn't have a text editor, but we can make ours work with notepad (but not notepad++. To configure it for notepad, type the following"
+
+~~~ {.bash}
+$ git config --global core.editor notepad
+~~~
+
+Then, to open a bash script from the command line type:
+
+~~~ {.bash}
+$ notepad <name_of_file>.sh
+~~~
+
+### Using Text Wrangler
+
+Text Wrangler is great for writing scripts because the formatting because the formatting helps you understand your code. 
+
+To make TextWrangler the default:
+
+1. "Get Info" on a text file in the Finder.
+2. Change the "Open with:" program to TextWrangler, in the fifth information pane.
+3. Click the "Change All..." button at the bottom of the pane.
+
 
 ## Proceed to the Next or Previous lesson
 **Next Lesson:** [02 Navigating Directories](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/02_Navigating_Dirs.md)  
