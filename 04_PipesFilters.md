@@ -125,7 +125,7 @@ Are you beginning to see how this is useful?  You can string together many comma
 For instance, to answer "Are there any unusually abundance sequences in my human_rnaseq.fastq file?", we could execute this one liner
 
 ~~~ {.bash}
-$ head -100000 human_01_R1.fastq | grep -A 1 '^@HWI' | grep -v '^@HWI' | sort | uniq -c | sort -n -r | head
+$ head -100000 yeast_01_R1.fastq | grep -A 1 '^@HWI' | grep -v '^@HWI' | sort | uniq -c | sort -n -r | head
 ~~~
 
 I strongly recommend bookmarking [Scott's List of Unix One Liners](https://wikis.utexas.edu/display/bioiteam/Scott's+list+of+linux+one-liners) for future reference.
