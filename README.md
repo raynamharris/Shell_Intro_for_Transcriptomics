@@ -1,7 +1,7 @@
 # Introduction to the Unix Shell for Transcriptomics
 By Rayna Harris
-Initialized February 15, 2015
-Last updated February 23, 2015
+Initialized February 15, 2016
+Last updated June 22, 2016
 
 The Unix shell has been around longer than most of its users have been alive. It has survived so long because it’s a powerful tool that allows people to do complex things with just a few keystrokes. More importantly, it helps them combine existing programs in new ways and automate repetitive tasks so that they don’t have to type the same things over and over again. Use of the shell is fundamental to using a wide range of other powerful tools and computing resources including “high-performance computing (HPC)” supercomputers. These lessons will start you on a path towards using these resources effectively.
 
@@ -10,9 +10,6 @@ The Unix shell has been around longer than most of its users have been alive. It
 - Learn to view, create, and manipulate files and directories
 - Learn to automate tasks to build reproducible research practices
 
-## Etherpad for Collaborative Notetaking
-All the notes from today's class can be found in the Etherpad
-https://etherpad.wikimedia.org/p/2016-04-28-intro-to-unix
 
 ## Topics Covered in this Lesson
 00. [The Motivating Dataset](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/00_Motivating_Dataset.md)
@@ -30,7 +27,6 @@ https://etherpad.wikimedia.org/p/2016-04-28-intro-to-unix
 
 ## Useful Resources
 http://explainshell.com Not sure what a command means/does? Type it here and get a very easy to understand explanation!
-
 
 ## Acknowledgements
 This lesson was inspired by other awesome lessons taught by my colleagues. The include by are not limited to:
