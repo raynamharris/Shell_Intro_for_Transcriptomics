@@ -37,7 +37,7 @@ This is your **home directory**. To understand what a  home directory  is, let's
 
 Note: The home directory path will look different on different operating systems. On a Mac  it may look like /Users/username but on Windows it will look more like /c/Users/username. In future examples, we’ve used Mac output as the default.
 
-![Home Directory and Class Directory](figures/home_dir.png)
+![Home Directory and Class Directory](/figures/home_dir.png)
 
 
 ## ls
