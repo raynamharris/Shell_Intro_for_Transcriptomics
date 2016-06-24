@@ -232,5 +232,5 @@ We just learned a few shorthand notations that save us time typing. Another very
 
 
 ## Proceed to the Next and Previous lessons
-**Next Lesson:** [03 Read Write Move Copy](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/03_ReadWriteMoveCopy.md)     
-**Previous Lesson:** [01 Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/01_Intoducing_Shell.md)
+**Next Lesson:** [03 Read Write Move Copy](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/03_ReadWriteMoveCopy.md)     
+**Previous Lesson:** [01 Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/01_Intoducing_Shell.md)

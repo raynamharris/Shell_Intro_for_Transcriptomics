@@ -166,6 +166,6 @@ $ cat ../results/yeast_01_R1-wordcount.txt
 
 
 ## Proceed Previous lesson
-**Previous Lesson:** [06 For Loops](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/06_ForLoops.md) 
+**Previous Lesson:** [06 For Loops](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/06_ForLoops.md) 
 
 

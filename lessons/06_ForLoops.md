@@ -128,5 +128,5 @@ SRR534005_03_R2.fastq
 
 
 ## Proceed to the Previous lesson
-**Next Lesson** [07 Bash Scripts](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/07_BashScripts.md)
-**Previous Lesson** [05 grep, uniq, and history](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/05_FindingThings.md) 
+**Next Lesson** [07 Bash Scripts](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/07_BashScripts.md)
+**Previous Lesson** [05 grep, uniq, and history](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/05_FindingThings.md) 

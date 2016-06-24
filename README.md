@@ -15,14 +15,14 @@ All the notes from today's class can be found in the Etherpad
 https://etherpad.wikimedia.org/p/2016-04-28-intro-to-unix
 
 ## Topics Covered in this Lesson
-00. [The Motivating Dataset](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/00_Motivating_Dataset.md)
-01. [Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/01_Intoducing_Shell.md)
-02. [Navigating the Unix File System](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/02_Navigating_Dirs.md)
-03. [Writing, Reading, Copying, Moving, Removing Things](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/03_ReadWriteMoveCopy.md)
-04. [Pipes and Filters](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/04_PipesFiltersLoops.md)
-05. [grep, uniq, and history](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/05_FindingThings.md)
-06. [For Loops](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/06_ForLoops.md)
-07. [Bash Scripts](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/07_BashScripts.md)
+00. [The Motivating Dataset](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/00_Motivating_Dataset.md)
+01. [Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/01_Intoducing_Shell.md)
+02. [Navigating the Unix File System](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/02_Navigating_Dirs.md)
+03. [Writing, Reading, Copying, Moving, Removing Things](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/03_ReadWriteMoveCopy.md)
+04. [Pipes and Filters](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/04_PipesFiltersLoops.md)
+05. [grep, uniq, and history](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/05_FindingThings.md)
+06. [For Loops](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/06_ForLoops.md)
+07. [Bash Scripts](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/07_BashScripts.md)
 
 ## Further Reading
 - [Practical Computing for Biologists](http://practicalcomputing.org/) This is a highly recommended book for people looking for a systematic presentation on shell scripting, programming, UNIX, etc.
@@ -47,4 +47,4 @@ This lesson was inspired by other awesome lessons taught by my colleagues. The i
 - [2015 Peer-led Biocomputing Working Group](https://github.com/sjspielman/UTbiocomputing2015)
 
 ## Proceed to the Lesson Materials
-[00 The Motivating Dataset](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/00_Motivating_Dataset.md)
+[00 The Motivating Dataset](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/00_Motivating_Dataset.md)
