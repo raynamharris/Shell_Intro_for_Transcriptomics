@@ -28,4 +28,4 @@ A FASTQ file normally uses four lines per sequence.
 **Line 4** is a string of Ascii-encoded base quality scores encodes the quality values for the sequence in Line 2. This string contain the same number of symbols as letters in the sequence on Line 2.
 
 ## Proceed to the Next Lesson
-**Next Lesson:** [01 Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/01_Intoducing_Shell.md) 
+**Next Lesson:** [01 Introducing the Shell](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/01_Intoducing_Shell.md) 

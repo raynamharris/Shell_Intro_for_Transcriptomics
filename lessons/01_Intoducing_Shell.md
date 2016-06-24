@@ -64,5 +64,5 @@ To make TextWrangler the default:
 
 
 ## Proceed to the Next or Previous lesson
-**Next Lesson:** [02 Navigating Directories](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/02_Navigating_Dirs.md)  
-**Previous Lesson** [00 The Motivating Dataset](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/00_Motivating_Dataset.md)
+**Next Lesson:** [02 Navigating Directories](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/02_Navigating_Dirs.md)  
+**Previous Lesson** [00 The Motivating Dataset](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/00_Motivating_Dataset.md)
