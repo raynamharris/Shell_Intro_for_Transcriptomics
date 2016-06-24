@@ -172,6 +172,19 @@ $ cat hellohello.txt
 $ cat hello.txt hellohello.txt
 ~~~
 
+## Line navigation
+You can’t use the mouse to move the cursor in the command line so your options are to use the arrow and some of the commands below when you’re moving through very long lines/paths.
+- ctrl-d : delete the character under the cursor
+- ctrl-a : move to the beginning of the line
+- ctrl-e : move to the end of the line
+- up arrow : previous command (you can keep pushing the arrow to scroll through many previous commands)
+- down arrow : next command
+- ctrl-k : delete from the cursor to the end of the line
+
+## ctrl-c 
+This keystroke combination will kill the currently running command. We’ve only being using commands that return small amounts of information. When you’re running more complicated commands sometimes you end up sending things into a infinite loop (oops) or you may realize part of the way through that you’ve typed the wrong thing (oops) and want to stop the command. 
+
+
 ## Proceed to the Next or Previous lesson
 **Next Lesson:** [04 Pipes and Filters](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/04_PipesFilters.md)  
 **Previous Lesson** [02 Navigating Directories](https://github.com/raynamharris/Shell_Intro_for_Transcriptomics/blob/master/lessons/02_Navigating_Dirs.md)

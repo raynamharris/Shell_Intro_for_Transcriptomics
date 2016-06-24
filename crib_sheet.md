@@ -10,7 +10,7 @@ Command | Translation | Examples
 `cp` | **c**o**p**y | `cp file.txt newfile.txt` (and file.txt will still exist!)
 `mv` | **m**o**v**e | `mv file.txt newfile.txt` (but file.txt will *no longer* exist!)
 `rm` | **r**e**m**ove | `rm file.txt` removes file.txt <br> `rm -r directoryname/` removes the directory and all files within
-`ls` | **l**i**s**t | `ls *.txt` lists all .txt files in current directory <br> `ls -a` lists all files including hidden ones in the current directory <br> `ls -l` lists all files in current directory including file sizes and timestamps <br> `ls -lh` does the same but changes file size format to be **h**uman-readable <br> `ls ../` lists files in the directory above the current one
+`ls` | **l**i**s**t | `ls *.txt` lists all .txt files in current directory <br> `ls -a` lists all files including hidden ones in the current directory <br> `ls -l` lists all files in current directory including file sizes and timestamps <br> `ls -lh` does the same but changes file size format to be **h**uman-readable <br> `ls ../` lists files in the directory above the current one <br> `ls -lrS` lists files sorted by size in reverse <br> `ls -lt` lists files sorted by time <br> `ls -lx` lists files sorted by file extension
 `man` | **man**ual | `man ls` opens the manual for command `ls` (use `q` to escape page)
 `grep` | **g**lobal **r**egular <br> **e**xpression **p**arser |  `grep ">" seqs.fasta` pulls out all sequence names in a fasta file <br> `grep -c ">" seqs.fasta` counts the number of those sequences <br> 
 `cat` | con**cat**enate | `cat seqs.fasta` prints the contents of seqs.fasta to the screen (ie stdout)
