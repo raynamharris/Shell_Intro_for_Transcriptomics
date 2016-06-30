@@ -38,12 +38,13 @@ The `$` is a **prompt**, which shows us that the shell is waiting for you to typ
 
 ## Configuring Text Editors
 
-### Using Notepad++Configuring Git Bash to work with Notepad
+### Using Notepad++Configuring Git Bash to work with Notepad++
 
 Notepadd++ is great for writing scripts because the formatting helps you understand your code. Git Bash doesn't have a text editor, but we can make ours work with notepad (but not notepad++. To configure it for notepad, type the following"
 
 ~~~ {.bash}
-$ git config --global core.editor notepad
+$ git config --global core.editor "'c:/program files (x86)/Notepad++/notepad++.exe' - multiInst -notabbar -nosession -noPlugin"
+$ alias notepad="'c:/program files (x86)/Notepad++/notepad++.exe'"
 ~~~
 
 Then, to open a bash script from the command line type:
